@@ -1,0 +1,110 @@
+*{
+font-family: sans-serif;
+}
+
+header > div {
+    display: flex;
+    color: white;
+    background-color: black;
+    padding: 16px;
+    font-size: 18px;
+    justify-content: space-between;
+    border-radius: 16px;
+
+}
+
+header img {
+    width: 80px;
+    height: 80px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 80px);
+}
+
+main > div{
+    background-color: lightgray;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+}
+
+
+button{
+    background-color: blue;
+    color: white;
+}
+
+button:hover{
+    background-color: darkblue;
+    color: whitesmoke;
+}
+
+
+
+.form-group {
+    display: flex;
+    flex-direction: row;
+    margin: 15px;
+}
+
+textarea {
+    width: 300px;
+    height: 150px;
+    padding: 4px;
+    margin-left: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: none;
+    background-color: #fff;
+    color: #000;
+}
+
+
+
+
+
+
+
+
+/* Login Box */
+.login-box {
+    background-color: #eee;
+    padding: 30px;
+    border-radius: 10px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.login-box h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.login-box input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.link {
+    color: #2f8dd1;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
