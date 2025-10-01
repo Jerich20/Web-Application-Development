@@ -1,0 +1,58 @@
+
+.index-header-buttons{
+    
+}
+
+
+/* Post Feed Container */
+.post-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    width: 410px;
+    max-height: 80%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+
+}
+
+/* Individual Post */
+.post {
+    background-color: white;
+    border-radius: 10px;
+    width: 400px;
+    padding: 10px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.post-header {
+    font-size: 14px;
+    color: gray;
+}
+
+.post img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.post-text {
+    font-size: 16px;
+}
+
+.like-button {
+    align-self: flex-start;
+    background-color: #ccc;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.like-button:hover {
+    background-color: #aaa;
+    cursor: pointer;
+}

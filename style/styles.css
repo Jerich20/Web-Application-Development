@@ -2,7 +2,7 @@
 font-family: sans-serif;
 }
 
-header > div {
+header div {
     display: flex;
     color: white;
     background-color: black;
@@ -35,19 +35,35 @@ main > div{
     
 }
 
-
+/* Normal buttons*/
 button{
-    background-color: blue;
+    background-color: darkblue;
     color: white;
 }
 
 button:hover{
-    background-color: darkblue;
+    background-color: blue;
+    color: whitesmoke;
+}
+
+/* Header buttons*/
+header button {
+    background-color: red;
+    color: white;
+    font-size: 20px;       
+    padding: 12px 24px;     
+    border: none;
+    border-radius: 6px;     
+    margin-right: 10px;     
+    cursor: pointer;
+}
+header button:hover{
+    background-color: blue;
     color: whitesmoke;
 }
 
 
-
+/**/
 .form-group {
     display: flex;
     flex-direction: row;
@@ -74,9 +90,9 @@ textarea {
 
 
 
-/* Login Box */
-.login-box {
-    background-color: #eee;
+/* Middle gray box for login and index */
+.middle-box {
+    background-color: lightgray;
     padding: 30px;
     border-radius: 10px;
     width: 300px;
@@ -86,19 +102,21 @@ textarea {
     gap: 10px;
 }
 
-.login-box h2 {
+.middle-box h2 {
     font-size: 18px;
     margin-bottom: 10px;
     text-align: center;
 }
 
-.login-box input {
-    width: 100%;
+.middle-box input {
+    width: 70%;
     padding: 8px;
     border: 1px solid #ccc;
     border-radius: 4px;
 }
 
+
+/* Link behavior*/
 .link {
     color: #2f8dd1;
     text-decoration: none;
