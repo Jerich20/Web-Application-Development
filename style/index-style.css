@@ -1,9 +1,4 @@
 
-.index-header-buttons{
-    
-}
-
-
 /* Post Feed Container */
 .post-container {
     display: flex;
@@ -30,6 +25,7 @@
     gap: 10px;
 }
 
+/* Post top information*/
 .post-header {
     font-size: 14px;
     color: gray;
@@ -44,6 +40,8 @@
     font-size: 16px;
 }
 
+
+/* Post like button*/
 .like-button {
     align-self: flex-start;
     background-color: #ccc;

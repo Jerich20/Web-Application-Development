@@ -7,31 +7,31 @@
     <link rel="stylesheet" type="text/css" href="style\styles.css">
     <title>Document</title>
 </head>
-    <body>
-        <header>
+<body>
+    <header>
+        <div class="header-button-box">
+            <button onclick="window.location.href='index.html'">Home</button>
+        </div>
+        <img src="Pictures\blankProfile.webp" alt="">
+    </header>
+
+    <main>
+        <div class="middle-box">
+            <div class = "form-group">
+                <label>Post body</label>
+                <textarea placeholder="textarea"> </textarea>
+            </div>
+            
             <div>
-                <button onclick="window.location.href='index.html'">Home</button>
-                <img src="Pictures\blankProfile.webp" alt="">
+                <label>Select file</label>
+                <input type="file"  />
             </div>
-        </header>
+            <button>Create post</button>
+        </div>
+    </main>
 
-        <main>
-            <div class="middle-box">
-                <div class = "form-group">
-                    <label>Post body</label>
-                    <textarea placeholder="textarea"> </textarea>
-                </div>
-                
-                <div>
-                    <label>Select file</label>
-                    <input type="file"  />
-                </div>
-                <button>Create post</button>
-            </div>
-        </main>
-
-        <footer>
-            <p>&copy;2025 Your Name. All rights reserved.</p>
-        </footer>
-    </body>
+    <footer>
+        <p>&copy;2025 Your Name. All rights reserved.</p>
+    </footer>
+</body>
 </html>

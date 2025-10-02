@@ -2,7 +2,8 @@
 font-family: sans-serif;
 }
 
-header div {
+
+header {
     display: flex;
     color: white;
     background-color: black;
@@ -10,13 +11,13 @@ header div {
     font-size: 18px;
     justify-content: space-between;
     border-radius: 16px;
-
 }
 
 header img {
     width: 80px;
     height: 80px;
 }
+
 
 main {
     display: flex;
@@ -50,12 +51,11 @@ button:hover{
 header button {
     background-color: red;
     color: white;
-    font-size: 20px;       
-    padding: 12px 24px;     
-    border: none;
-    border-radius: 6px;     
-    margin-right: 10px;     
+    font-size: 20px;            
+    border: none;    
     cursor: pointer;
+    margin: 8px;
+    padding: 8px;
 }
 header button:hover{
     background-color: blue;
