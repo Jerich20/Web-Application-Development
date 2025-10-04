@@ -54,3 +54,26 @@
     background-color: #aaa;
     cursor: pointer;
 }
+
+
+/* For phones as wellm*/ 
+@media (max-width: 600px) { 
+    .post-container { 
+        width: 100%; 
+        padding: 10px; 
+    } 
+    .post { 
+        width: 100%; 
+        padding: 8px; 
+    } 
+    .post-text { 
+        font-size: 14px; 
+    } 
+    .post-header { 
+        font-size: 12px; 
+    } 
+    .like-button { 
+        padding: 5px 8px; 
+        font-size: 14px; 
+    }
+}
