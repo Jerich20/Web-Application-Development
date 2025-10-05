@@ -84,10 +84,23 @@ textarea {
 }
 
 
+#email {
+    border: 2px solid #2f8dd1;
+}
+
+#password {
+    border: 2px solid #2f8dd1;
+}
 
 
+.link + p {
+    margin-top: 15px;
+    font-weight: bold;
+}
 
-
+h2 ~ p {
+    color: #333;
+}
 
 
 /* Middle gray box for login and index */
