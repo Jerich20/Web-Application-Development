@@ -23,6 +23,7 @@
     display: flex;
     flex-direction: column;
     gap: 10px;
+    margin-bottom: 20px;
 }
 
 /* Post top information*/
@@ -41,13 +42,14 @@
 }
 
 
-/* Post like button*/
+
 .like-button {
     align-self: flex-start;
     background-color: #ccc;
     border: none;
     padding: 5px 10px;
     border-radius: 5px;
+    margin-right: auto;
 }
 
 .like-button:hover {

@@ -1,17 +1,17 @@
-    // Login form validation
-document.addEventListener("DOMContentLoaded", function () {
-    const loginBtn = document.querySelector(".login-button");
-    if (loginBtn) {
-        loginBtn.addEventListener("click", function (event) {
-            const email = document.getElementById("email").value.trim();
-            const password = document.getElementById("password").value.trim();
-
-            if (!email || !password) {
-                alert("Please fill in both Email and Password.");
-                event.preventDefault();
-            } else {
-                window.location.href = "index.html";
-            }
-        });
-    }
-});
+fetch('post.json')
+  .then(response => response.json())
+  .then(posts => {
+    const container = document.getElementById('posts');
+    
+    posts.forEach(post => {
+      container.innerHTML += `
+        <div class="post">
+          <p>${post.title}</p>
+          ${post.image ? `<img src="${post.image}" class="post-img">` : ''}
+          <p>${post.content}</p>
+          <button class="like-button">👍 ${post.likes}</button>
+        </div>
+      `;
+    });
+  })
+  .catch(error => console.error('Viga:', error));
