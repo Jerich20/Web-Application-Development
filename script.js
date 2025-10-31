@@ -60,3 +60,17 @@ fetch('http://localhost:3000/posts')
   //made a local json server - 
     //npm install json-server
     //npx json-server --watch Data/post.json
+      //Endpoints:
+      //http://localhost:3000/posts
+
+
+
+      function PopupProfile() {
+        const popup = document.getElementById('popup');
+        // Toggle visibility
+        if (popup.style.display === 'flex') {
+            popup.style.display = 'none';
+        } else {
+            popup.style.display = 'flex';
+        }
+    }

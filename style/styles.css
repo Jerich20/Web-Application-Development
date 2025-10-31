@@ -161,3 +161,25 @@ h2 ~ p {
         font-size: 14px; 
     }
 }
+
+
+/* Popup overlay for profile */
+  .popup {
+    display: none; /* hidden by default */
+    position: fixed;
+    top: 90px;      /* alignet to the top-right */
+    right: 0px;
+    background: rgba(0,0,0,0);
+    pointer-events: none; /* allows the profile to be clicked again */
+  }
+
+  /* Popup box */
+  .popup-content {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: left;
+    width: 300px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    pointer-events: auto; /*allows the buttons inside the popup to be clicked*/
+  }
