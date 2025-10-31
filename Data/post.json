@@ -1,0 +1,92 @@
+{
+"posts": [
+  {
+    "id": 1,
+    "title": "22 Okt 2022",
+    "image": "Pictures/tartu1.jpg",
+    "content": "This is Tartu on beautiful spring day next to Emajõgi. Flowers are blooming and water is bright",
+    "likes": ""
+  },
+
+
+  {
+    "id": 2,
+    "title": "23 Okt 2022",
+    "content": "Tartu is Estonia’s oldest university town, buzzing with academic life.",
+    "likes": ""
+  },
+
+
+  {
+    "id": 3,
+    "title": "31 Okt 2022",
+    "image": "Pictures/tartu2.jpg",
+    "content": "The banks of the Emajõgi River offer peace and beauty for walks and relaxation.",
+    "likes": ""
+  },
+
+
+  {
+    "id": 4,
+    "title": "01 Dets 2022",
+    "image": "Pictures/tartu 3.jpg",
+    "content": "The heart of the city is Town Hall Square with its historic charm.",
+    "likes": ""
+  },
+
+
+  {
+    "id": 5,
+    "title": "22 Jan 2023",
+    "image": "Pictures/tartu4.jpg",
+    "content": "The city is full of parks and greenery, making it a pleasant place to live.",
+    "likes": ""
+  },
+
+
+  {
+    "id": 6,
+    "title": "23 Jan 2023",
+    "image": "Pictures/tartu5.jpg",
+    "content": "The University of Tartu Library tower is a symbol of the city and a favorite for photographers.",
+    "likes": ""
+  },
+
+
+  {
+    "id": 7,
+    "title": "24 Jan 2023",
+    "image": "Pictures/tartu6.jpg",
+    "content": "The Vanemuine Theatre offers diverse cultural experiences every season.",
+    "likes": ""
+  },
+
+
+  {
+    "id": 8,
+    "title": "26 Jan 2023",
+    "image": "Pictures/tartu7.jpg",
+    "content": "Aparaaditehas cultural center blends art, music, and creativity",
+    "likes": ""
+  },
+
+
+  {
+    "id": 9,
+    "title": "27 Jan 2023",
+    "image": "Pictures/tartu8.jpg",
+    "content": "Tartu’s cafés and small restaurants create a friendly and cozy atmosphere",
+    "likes":""
+  },
+
+  
+  {
+    "id": 10,
+    "title": "28 Jan 2023",
+    "image": "Pictures/tartu9.jpg",
+    "content": "The city surprises with street art and modern architecture that enrich its skyline.",
+    "likes": ""
+  }
+  
+  ]
+}
