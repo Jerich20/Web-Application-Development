@@ -1,6 +1,9 @@
 *{
 font-family: sans-serif;
 }
+body {
+    background-color: #e7e1e1;
+}
 
 
 header {
@@ -16,6 +19,16 @@ header {
 header img {
     width: 80px;
     height: 80px;
+}
+
+footer {
+    display: flex;
+    background-color: black;
+    text-align: center;
+    padding: 16px;
+    font-size: 14px;
+    color: gray;
+    border-radius: 16px;
 }
 
 
@@ -51,15 +64,23 @@ button:hover{
 header button {
     background-color: red;
     color: white;
-    font-size: 20px;            
+    font-size: 30px;            
     border: none;    
     cursor: pointer;
     margin: 8px;
-    padding: 8px;
+    padding: 10px;
+    border-radius: 16px;
+    margin-top: 14px;
 }
 header button:hover{
     background-color: blue;
     color: whitesmoke;
+}
+
+
+.profile-icon img {
+    margin-right: 20px;
+    border-radius: 16px;
 }
 
 
@@ -107,12 +128,17 @@ h2 ~ p {
 .middle-box {
     background-color: lightgray;
     padding: 30px;
-    border-radius: 10px;
-    width: 300px;
+    border-radius: 16px;
+    width: 350px;
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 10px;
+
+    label {
+        margin-top: 50px;
+        font-size: 16px;
+    }
 }
 
 .middle-box h2 {
@@ -181,5 +207,5 @@ h2 ~ p {
     text-align: left;
     width: 300px;
     box-shadow: 0 0 10px rgba(0,0,0,0.3);
-    pointer-events: auto; /*allows the buttons inside the popup to be clicked*/
+    pointer-events:auto; /*allows the buttons inside the popup to be clicked*/
   }
